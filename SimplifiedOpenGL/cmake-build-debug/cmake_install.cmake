@@ -1,8 +1,8 @@
-# Install script for directory: D:/RopePhysicsEngine/PhysicsRopeEngine
+# Install script for directory: D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/PhysicsRopeEngine")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SimplifiedOpenGL")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

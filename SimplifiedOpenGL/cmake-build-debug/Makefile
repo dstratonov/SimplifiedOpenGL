@@ -66,10 +66,10 @@ RM = "D:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\RopePhysicsEngine\PhysicsRopeEngine
+CMAKE_SOURCE_DIR = D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug
+CMAKE_BINARY_DIR = D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,6 +168,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimplifiedOpenGL.dir\build.make CMakeFiles/SimplifiedOpenGL.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model.obj: model.cpp.obj
+
+.PHONY : model.obj
+
+# target to build an object file
+model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimplifiedOpenGL.dir\build.make CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj
+.PHONY : model.cpp.obj
+
+model.i: model.cpp.i
+
+.PHONY : model.i
+
+# target to preprocess a source file
+model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimplifiedOpenGL.dir\build.make CMakeFiles/SimplifiedOpenGL.dir/model.cpp.i
+.PHONY : model.cpp.i
+
+model.s: model.cpp.s
+
+.PHONY : model.s
+
+# target to generate assembly for a file
+model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimplifiedOpenGL.dir\build.make CMakeFiles/SimplifiedOpenGL.dir/model.cpp.s
+.PHONY : model.cpp.s
+
 tgaimage.obj: tgaimage.cpp.obj
 
 .PHONY : tgaimage.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... model.obj
+	@echo ... model.i
+	@echo ... model.s
 	@echo ... tgaimage.obj
 	@echo ... tgaimage.i
 	@echo ... tgaimage.s

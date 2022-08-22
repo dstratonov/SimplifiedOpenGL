@@ -4,7 +4,7 @@ project(SimplifiedOpenGL)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(SimplifiedOpenGL main.cpp tgaimage.cpp)
+add_executable(SimplifiedOpenGL main.cpp tgaimage.cpp model.cpp)
 
 target_link_libraries(SimplifiedOpenGL -lOpenGl32 -lfreeGLUT -lglfw3)
 

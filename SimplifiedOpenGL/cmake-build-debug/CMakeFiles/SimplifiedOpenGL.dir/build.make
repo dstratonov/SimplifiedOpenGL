@@ -61,10 +61,10 @@ RM = "D:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\RopePhysicsEngine\PhysicsRopeEngine
+CMAKE_SOURCE_DIR = D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug
+CMAKE_BINARY_DIR = D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SimplifiedOpenGL.dir/depend.make
@@ -77,45 +77,60 @@ include CMakeFiles/SimplifiedOpenGL.dir/flags.make
 
 CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj: CMakeFiles/SimplifiedOpenGL.dir/flags.make
 CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimplifiedOpenGL.dir\main.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimplifiedOpenGL.dir\main.cpp.obj -c D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\main.cpp
 
 CMakeFiles/SimplifiedOpenGL.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimplifiedOpenGL.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\main.cpp > CMakeFiles\SimplifiedOpenGL.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\main.cpp > CMakeFiles\SimplifiedOpenGL.dir\main.cpp.i
 
 CMakeFiles/SimplifiedOpenGL.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimplifiedOpenGL.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\main.cpp -o CMakeFiles\SimplifiedOpenGL.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\main.cpp -o CMakeFiles\SimplifiedOpenGL.dir\main.cpp.s
 
 CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj: CMakeFiles/SimplifiedOpenGL.dir/flags.make
 CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj: ../tgaimage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\tgaimage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.obj -c D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\tgaimage.cpp
 
 CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\tgaimage.cpp > CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\tgaimage.cpp > CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.i
 
 CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\tgaimage.cpp -o CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\tgaimage.cpp -o CMakeFiles\SimplifiedOpenGL.dir\tgaimage.cpp.s
+
+CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj: CMakeFiles/SimplifiedOpenGL.dir/flags.make
+CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj: ../model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimplifiedOpenGL.dir\model.cpp.obj -c D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\model.cpp
+
+CMakeFiles/SimplifiedOpenGL.dir/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimplifiedOpenGL.dir/model.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\model.cpp > CMakeFiles\SimplifiedOpenGL.dir\model.cpp.i
+
+CMakeFiles/SimplifiedOpenGL.dir/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimplifiedOpenGL.dir/model.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\model.cpp -o CMakeFiles\SimplifiedOpenGL.dir\model.cpp.s
 
 # Object files for target SimplifiedOpenGL
 SimplifiedOpenGL_OBJECTS = \
 "CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj" \
-"CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
+"CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj" \
+"CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj"
 
 # External object files for target SimplifiedOpenGL
 SimplifiedOpenGL_EXTERNAL_OBJECTS =
 
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj
+SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/build.make
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/linklibs.rsp
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/objects1.rsp
 SimplifiedOpenGL.exe: CMakeFiles/SimplifiedOpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SimplifiedOpenGL.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SimplifiedOpenGL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SimplifiedOpenGL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +143,6 @@ CMakeFiles/SimplifiedOpenGL.dir/clean:
 .PHONY : CMakeFiles/SimplifiedOpenGL.dir/clean
 
 CMakeFiles/SimplifiedOpenGL.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\RopePhysicsEngine\PhysicsRopeEngine D:\RopePhysicsEngine\PhysicsRopeEngine D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles\SimplifiedOpenGL.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug D:\SimplifiedOpenGL\SimplifiedOpenGL\SimplifiedOpenGL\cmake-build-debug\CMakeFiles\SimplifiedOpenGL.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SimplifiedOpenGL.dir/depend
 

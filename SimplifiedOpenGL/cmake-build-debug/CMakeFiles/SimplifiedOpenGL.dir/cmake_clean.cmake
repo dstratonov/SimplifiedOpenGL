@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj"
+  "CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj"
   "CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
   "SimplifiedOpenGL.exe"
   "SimplifiedOpenGL.exe.manifest"

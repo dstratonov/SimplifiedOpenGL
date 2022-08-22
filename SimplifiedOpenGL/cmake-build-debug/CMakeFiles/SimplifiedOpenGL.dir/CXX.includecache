@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/geometry.h
+cmath
+-
+
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/main.cpp
+tgaimage.h
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/tgaimage.h
+model.h
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/model.h
+
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/model.h
+vector
+-
+geometry.h
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/geometry.h
+
+D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/tgaimage.h
+fstream
+-
+

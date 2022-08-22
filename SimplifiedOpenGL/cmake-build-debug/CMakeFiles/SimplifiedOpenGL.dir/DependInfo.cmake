@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj"
-  "D:/RopePhysicsEngine/PhysicsRopeEngine/tgaimage.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
+  "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/main.cpp" "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/cmake-build-debug/CMakeFiles/SimplifiedOpenGL.dir/main.cpp.obj"
+  "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/model.cpp" "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/cmake-build-debug/CMakeFiles/SimplifiedOpenGL.dir/model.cpp.obj"
+  "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/tgaimage.cpp" "D:/SimplifiedOpenGL/SimplifiedOpenGL/SimplifiedOpenGL/cmake-build-debug/CMakeFiles/SimplifiedOpenGL.dir/tgaimage.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
